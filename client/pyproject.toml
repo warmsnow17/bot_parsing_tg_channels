@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "pyro-client"
+version = "0.1.0"
+description = "TG client on Pyrogram"
+authors = ["komediantto <komediantto@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "pyro_client"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyrogram = "^2.0.104"
+python-dotenv = "^1.0.0"
+loguru = "^0.7.0"
+requests = "^2.29.0"
+django = "^4.2"
+djangorestframework = "^3.14.0"
+ruff = "^0.0.263"
+tgcrypto = "^1.2.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
